@@ -1,0 +1,96 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Fondo negro para todo el cuerpo */
+    color: #fff; /* Texto blanco para buen contraste con el fondo negro */
+}
+
+/* Estilo de la cabecera */
+header {
+    background: #111; /* Fondo gris oscuro para la cabecera */
+    color: #fff; /* Texto blanco en la cabecera */
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff; /* Enlaces en la cabecera en blanco */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo del contenido principal */
+.contenedor {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.section-principal {
+    background: #222; /* Fondo gris oscuro para las secciones de contenido */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #fff; /* Texto blanco dentro de las secciones de contenido */
+}
+
+.section-uno, .section-dos {
+    margin-bottom: 20px;
+}
+
+.section-uno img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.section-uno b, .section-dos b {
+    font-size: 1.5em;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.section-dos p {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #444; /* Fondo gris intermedio para los elementos de lista */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Estilo del pie de página */
+footer {
+    background: #111; /* Fondo gris oscuro para el pie de página */
+    color: #fff; /* Texto blanco en el pie de página */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
