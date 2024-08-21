@@ -35,6 +35,10 @@ nav a {
     font-weight: bold;
 }
 
+nav a:hover {
+    text-decoration: underline; /* Subrayar enlaces al pasar el ratón */
+}
+
 /* Estilo del contenido principal */
 .contenedor {
     width: 80%;
@@ -50,7 +54,7 @@ nav a {
     color: #fff; /* Texto blanco dentro de las secciones de contenido */
 }
 
-.section-uno, .section-dos {
+.section-uno, .section-dos, .section-tres {
     margin-bottom: 20px;
 }
 
@@ -62,13 +66,13 @@ nav a {
     margin-bottom: 10px;
 }
 
-.section-uno b, .section-dos b {
+.section-uno b, .section-dos b, .section-tres b {
     font-size: 1.5em;
     display: block;
     margin-bottom: 10px;
 }
 
-.section-dos p {
+.section-dos p, .section-tres p {
     margin-bottom: 10px;
 }
 
@@ -79,6 +83,18 @@ ul {
 
 li {
     background: #444; /* Fondo gris intermedio para los elementos de lista */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Estilo para la sección de habilidades */
+.section-tres ul {
+    padding-left: 0; /* Quitar sangría izquierda para la lista de habilidades */
+}
+
+.section-tres li {
+    background: #555; /* Fondo un poco más claro para distinguir las habilidades */
     margin: 5px 0;
     padding: 10px;
     border-radius: 5px;
