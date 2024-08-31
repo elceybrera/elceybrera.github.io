@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo Alejandro Cabrera Sanchez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gustavo Alejandro Cabrera Sanchez</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#education">Educación</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li>
+                    <a target="_blank" class="link-nav" href="/index1.html">Frameworks</a>
+                </li>
+            </ul> 
+        </nav>
+    </header>
+
+    <main class="contenedor">
+        <section class="section-principal">
+            <section id="home" class="section-uno">
+                <b>Gustavo Alejandro Cabrera Sanchez</b>
+                <div class="contenido">
+                    <img src="alejo.jpg" alt="Foto de Gustavo Alejandro Cabrera Sanchez">
+                    <p>Estudiante de Tecnología en Sistemas de la Información.</p>
+                    <h1>Lista de Tareas Dinámicas</h1>
+                    <h3>Permite crear, editar y añadir tareas</h3>
+
+                    <ul id="taskList">
+                        <!-- la lista empieza sin elementos-->
+                    </ul>
+                    <button id="addTask">Agregar Tarea</button>
+                    <button id="editTask">Editar Tarea</button>
+                    <button id="deleteTask">Borrar Tarea</button>
+
+                    <script src="scripts.js"></script>
+                </div>
+            </section>
+            <section id="education" class="section-dos">
+                <b>Historial Académico</b>
+                <p>Resumen de estudios y logros académicos:</p>
+                <ul>
+                    <li>Gran Maestro en FF.</li>
+                    <li>Detalle académico 1</li>
+                    <li>Detalle académico 2</li>
+                    <!-- Agrega más elementos de lista según sea necesario -->
+                </ul>
+            </section>
+            <section id="skills" class="section-tres">
+                <b>Habilidades</b>
+                <ul>
+                    <li>HTML & CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>SQL</li>
+                    <!-- Agrega más habilidades según sea necesario -->
+                </ul>
+            </section>
+        </section>
+    </main>
+
+    <!-- Sección de Contacto -->
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="name" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="email" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
+                </div>
+                <div class="col-12 mb-3">
+                    <label for="message" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Tu mensaje"></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Gustavo Alejandro Cabrera Sanchez. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
